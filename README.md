@@ -1,12 +1,14 @@
+Add this repo to your pom.xml
+
 <pre><code>
 
-  \<repositories\>
-    \<repository\>
-      \<id\>gdata-repo\</id\>
-      \<name\>Google Data API Maven Repo\</name\>
-      \<url\>https://github.com/mikemallete/gdata-maven-repo/raw/master/repo\</url\>
-    \</repository\>
-  \</repositories\>
+  &lt;repositories&gt;
+    &lt;repository&gt;
+      &lt;id&gt;gdata-repo&lt;/id&gt;
+      &lt;name&gt;Google Data API Maven Repo&lt;/name&gt;
+      &lt;url&gt;https://github.com/mikemallete/gdata-maven-repo/raw/master/repo&lt;/url&gt;
+    &lt;/repository&gt;
+  &lt;/repositories&gt;
 
 </code></pre>
 
