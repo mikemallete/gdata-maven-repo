@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.google.gdata</groupId>
+  <artifactId>gdata-client</artifactId>
+  <version>1.0</version>
+  <description>Google Data API Client Library</description>
+
+  <dependencies>
+    <dependency> 
+      <groupId>com.google.gdata</groupId>
+      <artifactId>gdata-core</artifactId>
+      <version>1.0</version>
+    </dependency>
+  </dependencies>
+
+  <repositories>
+    <repository>
+      <id>gdata-repo</id>
+      <name>Google Data API Maven Repo</name>
+      <url>https://github.com/mikemallete/gdata-maven-repo/raw/master/repo</url>
+    </repository>
+  </repositories>
+</project>
